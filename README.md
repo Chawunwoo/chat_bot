@@ -11,7 +11,7 @@ This repo currently contains the starter files.
 Clone repo and create a virtual environment
 ```
 $ git clone https://github.com/prabal-17/chat_bot.git
-$ cd chatbot-deployment
+$ cd chat_bot
 $ python3 -m venv venv
 $ . venv/bin/activate
 ```
@@ -23,7 +23,10 @@ Install nltk package
 ```
 $ (venv) python
 >>> import nltk
->>> nltk.download('punkt')
+>>>nltk.download('punkt')
+>>>nltk.download('punkt_tab')
+>>>nltk.download('averaged_perceptron_tagger')  # Just in case POS tagging is needed
+>>>exit() #to get back
 ```
 Modify `intents.json` with different intents and responses for your Chatbot
 
