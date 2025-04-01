@@ -13,7 +13,7 @@ Clone repo and create a virtual environment
 $ git clone https://github.com/prabal-17/chat_bot.git
 $ cd chat_bot
 $ python3 -m venv venv
-$ . venv/bin/activate
+$ . venv/bin/activate or .\venv\Scripts\activate
 ```
 Install dependencies
 ```
