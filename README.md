@@ -17,7 +17,7 @@ $ . venv/bin/activate
 ```
 Install dependencies
 ```
-$ (venv) pip install Flask torch torchvision nltk
+$  pip install Flask torch torchvision nltk
 ```
 Install nltk package
 ```
