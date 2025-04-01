@@ -41,7 +41,7 @@ $ (venv) python chat.py
 ```
 To quit type below command then enter
 ```
-$ exit()
+$ quit
 ```
 To run type
 ```
